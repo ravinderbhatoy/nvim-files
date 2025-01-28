@@ -61,5 +61,6 @@ _G.run_cpp = function()
 end
 
 vim.api.nvim_set_keymap("n", "<leader>r", "<cmd>lua _G.run_cpp()<CR>", { noremap = true, silent = true })
-
+vim.api.nvim_set_hl(0, "TelescopeNormal", { bg = "none" })
+vim.api.nvim_set_hl(0, "FloatBorder", { link = "Normal" })
 -- Map the function to a keybinding

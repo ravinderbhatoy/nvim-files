@@ -41,7 +41,7 @@ return {
 			options = {
 				globalstatus = true,
 				icons_enabled = true,
-				theme = "tokyonight", -- Set theme based on environment variable
+				theme = "rose-pine", -- Set theme based on environment variable
 				-- Some useful glyphs:
 				-- https://www.nerdfonts.com/cheat-sheet
 				--        
